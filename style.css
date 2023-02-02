@@ -1,0 +1,85 @@
+#start{
+    color:gray
+}
+
+.title{
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    font-family: arial;
+    font-size: 24px;
+    margin: auto;
+    width: 600px;
+    height: 260px;
+    outline: 8px solid #4285f4;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.typing {
+    text-align: center;
+    padding: 10px 20px;
+    margin: auto;
+    color: #000;
+    background: #f3c95d;
+    border-top: solid 5px #6297c1;
+    border-bottom: solid 5px #6297c1;
+    }
+
+.time{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.record {
+    float: right;
+    text-align: right;
+    position: relative;
+    left: -10px;
+    width: 250px;
+    margin-top: 40px;
+    padding: 0.5em 1em;
+    border: solid 3px #62c1ce;
+}
+.record-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.record p {
+    margin: 0; 
+    padding: 0;
+}
+
+.button a {
+    float: left;
+    text-align: left;
+    border-radius: 3px;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 10px;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 300;
+    background: rgb(149,202,252);
+    background: linear-gradient(270deg, rgba(149,202,252,1) 0%, rgba(107,182,255,1) 100%);
+}
+.button a:hover {
+    background: rgb(117,188,255);
+    background: linear-gradient(270deg, rgba(117,188,255,1) 0%, rgba(62,159,252,1) 100%);
+}
